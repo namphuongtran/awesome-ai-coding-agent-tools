@@ -6,6 +6,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
+[![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
 ![Tools](https://img.shields.io/badge/tools-128-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
