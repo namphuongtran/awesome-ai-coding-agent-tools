@@ -20,7 +20,6 @@ jobs:
           args: >-
             --no-progress
             --max-concurrency 8
-            --exclude-mail
             --accept 200,206,429
             './README.md'
           fail: true
