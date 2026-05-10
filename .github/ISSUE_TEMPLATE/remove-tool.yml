@@ -1,0 +1,36 @@
+name: Remove a tool
+description: Report a listed tool that has gone stale, been abandoned, or is otherwise no longer eligible.
+title: "Remove: <tool name>"
+labels: ["removal"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name (as listed)
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Listed URL
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - "Inactive (no commit/release in 12+ months)"
+        - "Repo archived or deleted"
+        - "Site/install no longer works"
+        - "Out of scope"
+        - "Duplicate / superseded"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+    validations:
+      required: true

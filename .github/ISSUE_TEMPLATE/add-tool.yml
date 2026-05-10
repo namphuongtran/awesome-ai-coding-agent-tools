@@ -1,0 +1,92 @@
+name: Add a tool
+description: Suggest a new AI coding agent, plugin, SDK, or supporting tool.
+title: "Add: <tool name>"
+labels: ["addition"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      placeholder: "Claude Code"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official URL (repo or homepage)
+      placeholder: "https://github.com/anthropics/claude-code"
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Proposed section
+      options:
+        - "Extensions, Skills & Rules > Claude Code Skills & Plugins"
+        - "Extensions, Skills & Rules > Cursor Rules"
+        - "Extensions, Skills & Rules > MCP Servers"
+        - "Extensions, Skills & Rules > Curated Awesome Lists"
+        - "Extensions, Skills & Rules > Methodologies & Spec-Driven Workflows"
+        - "Extensions, Skills & Rules > Skill & Plugin Marketplaces"
+        - "Agent SDKs & Frameworks > Official Vendor SDKs"
+        - "Agent SDKs & Frameworks > Orchestration Frameworks"
+        - "Agent SDKs & Frameworks > Lightweight & Typed"
+        - "Agent SDKs & Frameworks > Structured Output & Multi-Provider"
+        - "Agent SDKs & Frameworks > Stateful Agents"
+        - "Supporting Infrastructure > Memory"
+        - "Supporting Infrastructure > Vector Databases"
+        - "Supporting Infrastructure > Codebase Context"
+        - "Supporting Infrastructure > Sandboxing & Execution"
+        - "Supporting Infrastructure > Workflow & Pipeline Orchestration"
+        - "Supporting Infrastructure > Evaluation"
+        - "Supporting Infrastructure > Observability"
+        - "Supporting Infrastructure > Prompt Management"
+        - "Supporting Infrastructure > Benchmarks & Leaderboards"
+        - "Supporting Infrastructure > Test Generation"
+        - "Supporting Infrastructure > Local LLM Runners"
+        - "Learning Resources > Articles & Blogs"
+        - "Learning Resources > Tutorials & Courses"
+        - "Learning Resources > Books"
+        - "Learning Resources > Podcasts"
+        - "Learning Resources > Datasets"
+        - "Community"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-sentence description (≤120 chars, ends with a period)
+      placeholder: "Anthropic's official terminal agent with skills, hooks, and MCP support."
+    validations:
+      required: true
+  - type: textarea
+    id: strengths
+    attributes:
+      label: Strengths (2–3 short phrases, separated by `;`)
+      placeholder: "fast cold-start; multi-provider support; OSS Apache 2.0."
+    validations:
+      required: true
+  - type: textarea
+    id: caveats
+    attributes:
+      label: Caveats (1–2 short phrases, or `None notable.`)
+      placeholder: "proprietary pricing; requires paid plan."
+    validations:
+      required: true
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      options:
+        - "Open source"
+        - "Source-available"
+        - "Proprietary"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence of activity & real-world use
+      description: "Link to recent commits/releases, users, or coverage in serious writing."
+    validations:
+      required: true
