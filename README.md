@@ -7,7 +7,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-127-blue.svg)
+![Tools](https://img.shields.io/badge/tools-128-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -147,6 +147,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - Microsoft's MCP server for browser automation and end-to-end testing.
   - **Strengths:** accessibility tree (no vision models); fast and lightweight; avoids screenshot ambiguity.
   - **Caveats:** not a security boundary; headless Chromium only; profile conflicts under concurrency.
+- [Serena](https://github.com/oraios/serena) - MCP toolkit giving agents IDE-like semantic retrieval and editing via Language Server Protocol.
+  - **Strengths:** LSP-powered semantic ops (rename/references/navigation); multi-language; widely adopted (24k+ stars); free OSS.
+  - **Caveats:** requires per-language LSP servers installed; setup complexity varies by language.
 - [Stitch MCP](https://github.com/Kargatharaakash/stitch-mcp) - MCP bridge for Google Stitch AI UI design tool — extract design context and generate screens.
   - **Strengths:** zero-config after auth; cross-platform; instant access to design DNA (fonts/colors/layouts).
   - **Caveats:** requires Google Cloud credential setup; depends on Stitch platform availability.
