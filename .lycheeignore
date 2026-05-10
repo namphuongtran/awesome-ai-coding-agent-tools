@@ -1,4 +1,6 @@
 https://x.com/.*
 https://twitter.com/.*
 https://www.linkedin.com/.*
+https://openai.com/.*
+https://www.reddit.com/.*
 ^file://

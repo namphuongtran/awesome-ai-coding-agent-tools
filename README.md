@@ -7,7 +7,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-128-blue.svg)
+![Tools](https://img.shields.io/badge/tools-127-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -439,7 +439,7 @@ What agents need to be useful in production.
 - [Langfuse](https://github.com/langfuse/langfuse) - Open-source observability with tracing, evals, and prompt management.
   - **Strengths:** integrated LLMOps suite; flexible deployment (cloud/Docker/Kubernetes); battle-tested at scale.
   - **Caveats:** telemetry enabled by default; enterprise features under separate license; external LLM dependency.
-- [Lunary](https://github.com/lunary-ai/lunary) - Prompt versioning, monitoring, and experimentation with agent-behavior visualization.
+- [Lunary](https://lunary.ai) - Prompt versioning, monitoring, and experimentation with agent-behavior visualization.
   - **Strengths:** open-source; agent-behavior trees; prompt versioning and A/B; self-hostable.
   - **Caveats:** smaller ecosystem than Langfuse/Helicone; some features behind paid plans.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-based agent observability for 20+ providers.
@@ -484,9 +484,6 @@ What agents need to be useful in production.
 - [Diffblue Cover](https://www.diffblue.com) - Reinforcement-learning unit test generator focused on Java/Kotlin (proprietary).
   - **Strengths:** enterprise unit-test automation; AI testing agent positioning; SOC2/compliance capable.
   - **Caveats:** documentation thin in public; benchmark claims not independently verified; pricing unclear.
-- [Qodo Gen](https://www.qodo.ai/products/gen/) - VS Code extension for generative AI unit and behavioral test creation (proprietary).
-  - **Strengths:** precision/recall claims; multi-repo context; enterprise scalability; zero data retention.
-  - **Caveats:** internal benchmarking not independently validated; rule-system learning curve.
 
 ### Local LLM Runners
 
