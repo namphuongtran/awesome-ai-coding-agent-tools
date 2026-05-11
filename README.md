@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-128-blue.svg)
+![Tools](https://img.shields.io/badge/tools-131-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -101,9 +101,15 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [graphify](https://github.com/safishamsi/graphify) - Skill that turns code, docs, and media into navigable knowledge graphs.
   - **Strengths:** confidence tagging on relationships; god-node and surprising-connection detection; inline-comment rationale linking.
   - **Caveats:** local AST processing only; multimedia transcription via external APIs; first-run scales with project size.
+- [gstack](https://github.com/garrytan/gstack) - Garry Tan's exact Claude Code setup with 23 opinionated role-based tools (CEO, Designer, Eng Manager, Release Manager, Doc Engineer, QA).
+  - **Strengths:** role-based metaphor across the dev lifecycle; mirrors a production YC workflow; broad active community.
+  - **Caveats:** highly opinionated about the specialist-team model; less flexible for unconventional workflows.
 - [Karpathy-Inspired Claude Code Skills](https://github.com/forrestchang/andrej-karpathy-skills) - Compact Karpathy-style coding skills distilled into Claude Code-compatible format.
   - **Strengths:** Karpathy minimalism applied to skills; concise, pragmatic patterns; quick to adopt.
   - **Caveats:** personal interpretation; small skill count; opinionated style.
+- [Matt Pocock's Skills](https://github.com/mattpocock/skills) - Personal Claude Code skill pack from Matt Pocock, drawn straight from his `.claude` directory.
+  - **Strengths:** opinionated commands (`/grill-me`, `/write-a-prd`, `/tdd`, `/triage-issue`, `/git-guardrails`); failure-mode focus across planning/testing/safety; readable shell-based skills.
+  - **Caveats:** small skill set; reflects one engineer's workflow; no built-in orchestration.
 - [superpowers](https://github.com/obra/superpowers) - Agentic skills framework and methodology for Claude Code, Cursor, Codex, and Gemini CLI.
   - **Strengths:** TDD/RED-GREEN-REFACTOR built in; brainstorming + planning before code; Git-worktree mgmt for parallel work.
   - **Caveats:** philosophy-heavy; best results need cultural adoption.
@@ -266,6 +272,9 @@ Libraries for building your own agents.
 - [Mastra](https://github.com/mastra-ai/mastra) - TypeScript-first agent framework with workflows, memory, and evals.
   - **Strengths:** 40+ provider routing; graph-based workflows; human-in-the-loop; production observability.
   - **Caveats:** TypeScript-only; enterprise features need commercial license; substantial learning curve.
+- [Paperclip](https://github.com/paperclipai/paperclip) - Open-source multi-agent orchestration framework aimed at autonomous "zero-human company" operation.
+  - **Strengths:** agent-agnostic orchestration primitives; org-chart and routing abstractions over raw prompts; rapid community growth.
+  - **Caveats:** aspirational framing (autonomous-company scope); operational/infrastructure setup required; early-stage feature surface.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft's open SDK for LLM integration with plugins, prompt templates, and memory.
   - **Strengths:** enterprise-ready; multi-language (Python/C#/Java/TS); Copilot integration.
   - **Caveats:** less agent-native than LangGraph; plugin model less intuitive than LangChain.
