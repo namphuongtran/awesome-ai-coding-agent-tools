@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-131-blue.svg)
+![Tools](https://img.shields.io/badge/tools-132-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -327,6 +327,9 @@ What agents need to be useful in production.
 
 ### Memory
 
+- [agentmemory](https://github.com/rohitg00/agentmemory) - Persistent memory layer that captures, compresses, and replays coding-agent sessions across 15+ tools via MCP.
+  - **Strengths:** benchmarked retrieval on LongMemEval-S; broad agent coverage (Claude Code, Cursor, Cline, etc.); zero external databases.
+  - **Caveats:** young project with rapidly evolving API; pinned to older iii-engine version.
 - [Cognee](https://github.com/topoteretes/cognee) - Memory engine with knowledge graphs, ECL pipeline, and multi-hop reasoning.
   - **Strengths:** unified multi-source ingestion; agent learning across sessions; 4-method simplicity.
   - **Caveats:** hidden complexity behind simplicity; external LLM API dependency; operational maturity questions.
