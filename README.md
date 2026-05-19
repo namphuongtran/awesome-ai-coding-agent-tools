@@ -200,6 +200,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) - Open-source agentic agile framework with guided workflows from ideation to autonomous implementation.
   - **Strengths:** fully free, open-source; expert-collaborator personas; scale-domain-adaptive planning.
   - **Caveats:** requires CLI invocation (`npx bmad-method@next install`); newer methodology with evolving personas.
+- [Everything OpenAI Codex](https://github.com/mturac/everything-openai-codex) - Open-source Codex workflow system with agents, skills, commands, hooks, memory patterns, install profiles, and validation checks.
+  - **Strengths:** Codex-first workflow loop; repeatable install profiles; built-in public review and validation guidance.
+  - **Caveats:** broad workflow system rather than a single-purpose agent SDK; currently in rc.1.
 - [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) - Distilled best-practice patterns and conventions for Claude Code teams.
   - **Strengths:** concise reference of community-tested patterns; quick-start for new teams; living doc.
   - **Caveats:** opinionated; may not match every workflow; small maintainer pool.
