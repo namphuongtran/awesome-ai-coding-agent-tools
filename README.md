@@ -143,6 +143,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp) - Official Excalidraw MCP server for streaming hand-drawn diagram creation from agents.
   - **Strengths:** official Excalidraw team implementation; mobile-optimized streaming UI; works with Claude/ChatGPT/VS Code/Goose.
   - **Caveats:** requires MCP-compatible client; local setup needs Node.js familiarity.
+- [FastMCP](https://github.com/PrefectHQ/fastmcp) - Pythonic framework for building MCP servers and clients using decorators and type hints.
+  - **Strengths:** decorator-based, type-hinted Python API; builds both servers and clients; broad community adoption (25k+ stars).
+  - **Caveats:** Python-only; pre-1.0 breaking changes still possible.
 - [Figma MCP](https://github.com/GLips/Figma-Context-MCP) - MCP server giving agents semantic access to Figma designs for design-to-code.
   - **Strengths:** agent access to Figma data; single-shot implementation; optimized for Cursor.
   - **Caveats:** requires Figma API token; configuration overhead; Cursor-focused; context filtering trade-off.
