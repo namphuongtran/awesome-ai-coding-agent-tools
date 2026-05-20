@@ -104,7 +104,7 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [gstack](https://github.com/garrytan/gstack) - Garry Tan's exact Claude Code setup with 23 opinionated role-based tools (CEO, Designer, Eng Manager, Release Manager, Doc Engineer, QA).
   - **Strengths:** role-based metaphor across the dev lifecycle; mirrors a production YC workflow; broad active community.
   - **Caveats:** highly opinionated about the specialist-team model; less flexible for unconventional workflows.
-- [Karpathy-Inspired Claude Code Skills](https://github.com/forrestchang/andrej-karpathy-skills) - Compact Karpathy-style coding skills distilled into Claude Code-compatible format.
+- [Karpathy-Inspired Claude Code Skills](https://github.com/multica-ai/andrej-karpathy-skills) - Compact Karpathy-style coding skills distilled into Claude Code-compatible format.
   - **Strengths:** Karpathy minimalism applied to skills; concise, pragmatic patterns; quick to adopt.
   - **Caveats:** personal interpretation; small skill count; opinionated style.
 - [Matt Pocock's Skills](https://github.com/mattpocock/skills) - Personal Claude Code skill pack from Matt Pocock, drawn straight from his `.claude` directory.
