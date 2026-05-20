@@ -40,6 +40,7 @@ This list collects the **tools, libraries, MCP servers, and frameworks that powe
 
 - [Extensions, Skills & Rules](#extensions-skills--rules)
   - [Claude Code Skills & Plugins](#claude-code-skills--plugins)
+  - [Codex CLI & Desktop Tooling](#codex-cli--desktop-tooling)
   - [Cursor Rules](#cursor-rules)
   - [MCP Servers](#mcp-servers)
   - [Curated Awesome Lists](#curated-awesome-lists)
@@ -116,6 +117,12 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [Understand-Anything](https://github.com/Lum1104/Understand-Anything) - Interactive knowledge-graph explorer for codebases and documents.
   - **Strengths:** multi-view exploration (structural/business/semantic); guided onboarding tours; concurrent multi-agent pipeline.
   - **Caveats:** initial analysis pass needed; impact analysis is code-only, not runtime.
+
+### Codex CLI & Desktop Tooling
+
+- [codex-profiles](https://github.com/Ducksss/codex-profiles) - Bash CLI for launching OpenAI Codex CLI and Codex Desktop with isolated `CODEX_HOME` profiles per account or workflow.
+  - **Strengths:** Homebrew install; profile-local auth, config, sessions, connectors, logs, and caches; no token copying or parsing.
+  - **Caveats:** Codex-specific community project; Desktop launch support is macOS-only; each profile still needs its own login state.
 
 ### Cursor Rules
 
