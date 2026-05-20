@@ -92,7 +92,7 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [claude-mem](https://github.com/thedotmack/claude-mem) - Plugin that captures and injects session context for cross-session memory.
   - **Strengths:** ~10x token savings via 3-layer workflow; SQLite + FTS5 + Chroma retrieval; multi-IDE compatibility.
   - **Caveats:** requires Node.js 18+; lossy memory compression; vector-DB initialization overhead.
-- [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Performance-optimization system and tuning reference for the Claude Code agent harness.
+- [Everything Claude Code](https://github.com/affaan-m/ECC) - Performance-optimization system and tuning reference for the Claude Code agent harness.
   - **Strengths:** harness performance focus; benchmark-driven tuning; concise patterns.
   - **Caveats:** niche perf-focused audience; assumes Claude Code familiarity.
 - [get-shit-done](https://github.com/gsd-build/get-shit-done) - Meta-prompting and context-engineering system for agent-distributed large projects.
@@ -378,7 +378,7 @@ What agents need to be useful in production.
 - [Context7](https://github.com/upstash/context7) - Up-to-date version-specific documentation injection for LLMs via CLI or MCP.
   - **Strengths:** version-specific docs prevent hallucinated APIs; works with 30+ AI clients.
   - **Caveats:** community-contributed library quality not guaranteed; private supporting components; API-key dependency.
-- [GitIngest](https://github.com/cyclotruc/gitingest) - Lightweight tool that prepares Git repositories for LLM context windows.
+- [GitIngest](https://github.com/coderamp-labs/gitingest) - Lightweight tool that prepares Git repositories for LLM context windows.
   - **Strengths:** simple URL transformation for repos; web/extension/CLI/package access; respects `.gitignore`.
   - **Caveats:** GitHub-token setup friction; no explicit large-codebase optimization; Python 3.8+ required.
 - [GitNexus](https://github.com/abhigyanpatwari/GitNexus) - Client-side knowledge-graph engine for repos with zero-server, in-browser indexing.
@@ -444,7 +444,7 @@ What agents need to be useful in production.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Red-teaming and evaluation for prompts, agents, and RAG.
   - **Strengths:** fast local eval with caching; multi-provider; red-teaming built in; MIT licensed.
   - **Caveats:** Node.js 20.20+ required; most providers need API keys; large-scale limits unclear.
-- [RAGAS](https://github.com/explodinggradients/ragas) - Automated evaluation for RAG and agent systems with tool-call and goal-accuracy metrics.
+- [RAGAS](https://github.com/vibrantlabsai/ragas) - Automated evaluation for RAG and agent systems with tool-call and goal-accuracy metrics.
   - **Strengths:** objective metrics for RAG/agents; automatic test generation; LangChain integrations.
   - **Caveats:** limited template availability; depends on external LLMs; documentation incomplete.
 
@@ -509,7 +509,7 @@ These back local coding agents (e.g., aider with Ollama, Continue with local mod
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - Lightweight C++ LLM inference with minimal dependencies.
   - **Strengths:** plain C/C++ minimal deps; 1.5–8 bit quantization; Apple Silicon optimized; multicore.
   - **Caveats:** inference-only (no training); GGUF format conversion required; hardware-specific optimization.
-- [Llamafile](https://github.com/Mozilla-Ocho/llamafile) - Single-file executable bundling model and runtime via Cosmopolitan.
+- [Llamafile](https://github.com/mozilla-ai/llamafile) - Single-file executable bundling model and runtime via Cosmopolitan.
   - **Strengths:** single-file executable; no install needed; cross-platform; bundled whisperfile.
   - **Caveats:** newer versions may lack prior features; version fragmentation; GPU recommended.
 - [Ollama](https://github.com/ollama/ollama) - Single-binary LLM server with built-in model registry and GPU detection.
