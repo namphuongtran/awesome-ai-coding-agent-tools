@@ -155,6 +155,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [microsoft/mcp](https://github.com/microsoft/mcp) - Microsoft's official MCP server implementations.
   - **Strengths:** first-party Microsoft implementations; enterprise-aware; well-tested.
   - **Caveats:** Microsoft-stack bias; some servers are early.
+- [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) - Official visual testing and debugging tool for MCP servers from the protocol working group.
+  - **Strengths:** canonical MCP-server dev/test harness; interactive tool/resource exploration; first-party MCP working-group project.
+  - **Caveats:** Node.js-based local CLI; intended for development, not production monitoring.
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference servers for filesystem, Git, GitHub, memory, and more.
   - **Strengths:** canonical reference; minimal dependencies; copy-pasteable for most agents.
   - **Caveats:** reference-quality, not production-hardened; security trade-offs are user responsibility.
