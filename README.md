@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-131-blue.svg)
+![Tools](https://img.shields.io/badge/tools-132-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -149,6 +149,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [microsoft/mcp](https://github.com/microsoft/mcp) - Microsoft's official MCP server implementations.
   - **Strengths:** first-party Microsoft implementations; enterprise-aware; well-tested.
   - **Caveats:** Microsoft-stack bias; some servers are early.
+- [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) - Official visual testing and debugging tool for MCP servers from the protocol working group.
+  - **Strengths:** canonical MCP-server dev/test harness; interactive tool/resource exploration; first-party MCP working-group project.
+  - **Caveats:** Node.js-based local CLI; intended for development, not production monitoring.
 - [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) - Official MCP reference servers for filesystem, Git, GitHub, memory, and more.
   - **Strengths:** canonical reference; minimal dependencies; copy-pasteable for most agents.
   - **Caveats:** reference-quality, not production-hardened; security trade-offs are user responsibility.
