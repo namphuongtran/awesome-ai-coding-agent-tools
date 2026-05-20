@@ -471,6 +471,9 @@ What agents need to be useful in production.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-based agent observability for 20+ providers.
   - **Strengths:** 25+ observability platform destinations; standards-based OpenTelemetry; comprehensive LLM coverage.
   - **Caveats:** Python SDK primary; fragmented JavaScript ecosystem; telemetry-privacy docs needed.
+- [Opik](https://github.com/comet-ml/opik) - Open-source LLM observability with tracing, automated evals, and production dashboards from Comet ML.
+  - **Strengths:** combines tracing, evals, and dashboards in one stack; Comet-backed and Apache-2.0; strong RAG and agentic-workflow coverage.
+  - **Caveats:** smaller ecosystem than Langfuse/Helicone; some advanced features tied to Comet's hosted platform.
 - [Phoenix](https://github.com/Arize-ai/phoenix) - Arize's open-source LLM observability platform for tracing and evaluation.
   - **Strengths:** unified tracing/evaluation/datasets/experiments; OpenTelemetry standards; flexible deployment.
   - **Caveats:** Elastic License restrictions; telemetry enabled by default; self-hosting needs containerization.
