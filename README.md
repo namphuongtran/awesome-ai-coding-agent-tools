@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-131-blue.svg)
+![Tools](https://img.shields.io/badge/tools-132-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -143,6 +143,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp) - Official Excalidraw MCP server for streaming hand-drawn diagram creation from agents.
   - **Strengths:** official Excalidraw team implementation; mobile-optimized streaming UI; works with Claude/ChatGPT/VS Code/Goose.
   - **Caveats:** requires MCP-compatible client; local setup needs Node.js familiarity.
+- [FastMCP](https://github.com/PrefectHQ/fastmcp) - Pythonic framework for building MCP servers and clients using decorators and type hints.
+  - **Strengths:** decorator-based, type-hinted Python API; builds both servers and clients; broad community adoption (25k+ stars).
+  - **Caveats:** Python-only; pre-1.0 breaking changes still possible.
 - [Figma MCP](https://github.com/GLips/Figma-Context-MCP) - MCP server giving agents semantic access to Figma designs for design-to-code.
   - **Strengths:** agent access to Figma data; single-shot implementation; optimized for Cursor.
   - **Caveats:** requires Figma API token; configuration overhead; Cursor-focused; context filtering trade-off.
