@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-132-blue.svg)
+![Tools](https://img.shields.io/badge/tools-131-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -559,9 +559,6 @@ These back local coding agents (e.g., aider with Ollama, Continue with local mod
 
 ### Datasets
 
-- [CodeAlpaca-20k](https://github.com/sahil280114/codealpaca) - 20k instruction-following code dataset for affordable fine-tuning.
-  - **Strengths:** cost-effective 20k examples (<$200); code-focused via modified prompts; full pipeline transparency.
-  - **Caveats:** safety not prioritized; no model weights included; evaluations incomplete; external API dependency.
 - [Cleaned Alpaca Dataset](https://github.com/gururise/AlpacaDataCleaned) - Cleaned Alpaca instruction dataset for fine-tuning LLMs.
   - **Strengths:** 9.5% perplexity improvement; 40% higher truthfulness; 52k entries; open contribution.
   - **Caveats:** quality issues remain; ~80% math problems still incorrect; some long tokens.
