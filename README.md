@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-131-blue.svg)
+![Tools](https://img.shields.io/badge/tools-132-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -462,6 +462,9 @@ What agents need to be useful in production.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-based agent observability for 20+ providers.
   - **Strengths:** 25+ observability platform destinations; standards-based OpenTelemetry; comprehensive LLM coverage.
   - **Caveats:** Python SDK primary; fragmented JavaScript ecosystem; telemetry-privacy docs needed.
+- [Opik](https://github.com/comet-ml/opik) - Open-source LLM observability with tracing, automated evals, and production dashboards from Comet ML.
+  - **Strengths:** combines tracing, evals, and dashboards in one stack; Comet-backed and Apache-2.0; strong RAG and agentic-workflow coverage.
+  - **Caveats:** smaller ecosystem than Langfuse/Helicone; some advanced features tied to Comet's hosted platform.
 - [Phoenix](https://github.com/Arize-ai/phoenix) - Arize's open-source LLM observability platform for tracing and evaluation.
   - **Strengths:** unified tracing/evaluation/datasets/experiments; OpenTelemetry standards; flexible deployment.
   - **Caveats:** Elastic License restrictions; telemetry enabled by default; self-hosting needs containerization.
