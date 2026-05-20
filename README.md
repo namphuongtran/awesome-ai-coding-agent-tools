@@ -390,6 +390,9 @@ What agents need to be useful in production.
 - [GitNexus](https://github.com/abhigyanpatwari/GitNexus) - Client-side knowledge-graph engine for repos with zero-server, in-browser indexing.
   - **Strengths:** precomputed knowledge graphs enable smaller models; 14+ languages; local-first privacy.
   - **Caveats:** web UI capped at 5000 files; incomplete language features; commercial lock-in for advanced features.
+- [MarkItDown](https://github.com/microsoft/markitdown) - CLI and Python library that converts PDFs, Office docs, images, and audio into LLM-ready Markdown.
+  - **Strengths:** broad format coverage (PDF, Office, images, audio); Microsoft-maintained; widely adopted ingest tool.
+  - **Caveats:** general-purpose ingestion (not code-specific); audio transcription needs external API like Whisper.
 - [Repomix](https://github.com/yamadashy/repomix) - AI-friendly codebase packing with tree-sitter compression for big token reductions.
   - **Strengths:** AI-optimized formatting; 70% compression via tree-sitter; security scanning; flexible deployment.
   - **Caveats:** compression feature experimental; configuration complexity; remote config untrusted.
