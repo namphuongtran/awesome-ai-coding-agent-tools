@@ -420,6 +420,9 @@ What agents need to be useful in production.
 - [Riza](https://riza.io) - Secure sandboxing runtime for AI-generated code (proprietary).
   - **Strengths:** <10ms execution startup; billions of monthly executions; isolated execution; REST API.
   - **Caveats:** Python/TypeScript/Go only; self-hosting requires Kubernetes; pricing/limits unclear.
+- [Stagehand](https://github.com/browserbase/stagehand) - TypeScript and Python SDK for browser agents using natural-language act/extract/observe primitives.
+  - **Strengths:** natural-language browser primitives (act, extract, observe); TypeScript and Python SDKs; widely adopted browser-agent reference.
+  - **Caveats:** requires a Chromium-compatible browser environment; advanced features integrate with Browserbase's hosted cloud.
 - [Vercel Sandbox](https://vercel.com/docs/vercel-sandbox) - Lightweight sandbox execution integrated with Vercel infrastructure (proprietary).
   - **Strengths:** millisecond startup; Node24 / Python 3.13 runtimes; snapshotting; persistent beta support.
   - **Caveats:** Amazon Linux 2023 only; documentation thin; Firecracker VM constraints.
