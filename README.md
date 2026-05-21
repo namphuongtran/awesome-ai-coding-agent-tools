@@ -474,6 +474,9 @@ What agents need to be useful in production.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-based agent observability for 20+ providers.
   - **Strengths:** 25+ observability platform destinations; standards-based OpenTelemetry; comprehensive LLM coverage.
   - **Caveats:** Python SDK primary; fragmented JavaScript ecosystem; telemetry-privacy docs needed.
+- [Pluribus](https://github.com/caioribeiroclw-pixel/pluribus) - CLI for synchronizing and auditing AI-agent context files across Claude Code, Cursor, Copilot, OpenClaw, and related tools.
+  - **Strengths:** npm CLI; fidelity/audit reports for loaded context, duplicate-load risk, and portability drift; privacy-first receipt fixtures for context inputs and retrieval results.
+  - **Caveats:** early project; community adoption still small; proves generated files/receipts rather than enforcing runtime agent behavior.
 - [Opik](https://github.com/comet-ml/opik) - Open-source LLM observability with tracing, automated evals, and production dashboards from Comet ML.
   - **Strengths:** combines tracing, evals, and dashboards in one stack; Comet-backed and Apache-2.0; strong RAG and agentic-workflow coverage.
   - **Caveats:** smaller ecosystem than Langfuse/Helicone; some advanced features tied to Comet's hosted platform.
