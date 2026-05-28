@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-132-blue.svg)
+![Tools](https://img.shields.io/badge/tools-133-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -435,6 +435,9 @@ What agents need to be useful in production.
 - [Flowise](https://github.com/FlowiseAI/Flowise) - Visual low-code LLM app builder with drag-drop workflows for agents, RAG, and chatbots.
   - **Strengths:** AI/LLM-specific; low-code; 200+ integrations; Docker-easy deploy.
   - **Caveats:** not production-scale; limited orchestration patterns; rapid feature churn.
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source desktop app that orchestrates AI coding agents through a plan-based lifecycle.
+  - **Strengths:** agent-agnostic (Claude Code/Codex/Antigravity/Copilot/OpenCode); verification gates with human-in-the-loop; git worktree isolation.
+  - **Caveats:** FSL licensed (source-available); newer project; desktop-only (no cloud/SaaS).
 - [Kestra](https://github.com/kestra-io/kestra) - Event-driven workflow orchestration with YAML; real-time scheduling, retries, sub-flows.
   - **Strengths:** event-driven triggers; language-agnostic; 300+ integrations; enterprise-ready.
   - **Caveats:** YAML learning curve; less AI-specific than Flowise; self-hosting complexity.
