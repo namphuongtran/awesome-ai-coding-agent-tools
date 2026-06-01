@@ -111,7 +111,7 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
   - **Strengths:** opinionated commands (`/grill-me`, `/write-a-prd`, `/tdd`, `/triage-issue`, `/git-guardrails`); failure-mode focus across planning/testing/safety; readable shell-based skills.
   - **Caveats:** small skill set; reflects one engineer's workflow; no built-in orchestration.
 - [OneQuery CLI](https://github.com/wordbricks/skills/tree/main/skills/onequery-cli) - CLI skill for safe, auditable agent queries through OneQuery-managed data access.
-  - **Strengths:** agent-safe query validation; centralized credentials; audit trail.
+  - **Strengths:** agent-safe validation; audit trail.
   - **Caveats:** requires OneQuery setup and CLI authentication.
 - [superpowers](https://github.com/obra/superpowers) - Agentic skills framework and methodology for Claude Code, Cursor, Codex, and Gemini CLI.
   - **Strengths:** TDD/RED-GREEN-REFACTOR built in; brainstorming + planning before code; Git-worktree mgmt for parallel work.
