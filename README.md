@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-133-blue.svg)
+![Tools](https://img.shields.io/badge/tools-134-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -110,6 +110,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [Matt Pocock's Skills](https://github.com/mattpocock/skills) - Personal Claude Code skill pack from Matt Pocock, drawn straight from his `.claude` directory.
   - **Strengths:** opinionated commands (`/grill-me`, `/write-a-prd`, `/tdd`, `/triage-issue`, `/git-guardrails`); failure-mode focus across planning/testing/safety; readable shell-based skills.
   - **Caveats:** small skill set; reflects one engineer's workflow; no built-in orchestration.
+- [OneQuery CLI](https://github.com/wordbricks/skills/tree/main/skills/onequery-cli) - Agent skill for bounded, auditable read-only queries through OneQuery-managed data access.
+  - **Strengths:** centralized credentials; read-only validation; query limits and audit logs.
+  - **Caveats:** requires OneQuery setup and CLI authentication.
 - [superpowers](https://github.com/obra/superpowers) - Agentic skills framework and methodology for Claude Code, Cursor, Codex, and Gemini CLI.
   - **Strengths:** TDD/RED-GREEN-REFACTOR built in; brainstorming + planning before code; Git-worktree mgmt for parallel work.
   - **Caveats:** philosophy-heavy; best results need cultural adoption.
