@@ -323,6 +323,9 @@ Libraries for building your own agents.
 - [Outlines](https://github.com/dottxt-ai/outlines) - Fast structured generation via FSM/regex/grammar; works with Ollama, vLLM, OpenAI.
   - **Strengths:** zero-dependency core; multi-provider; JSON 100% valid guarantee; performance-focused.
   - **Caveats:** newer project; grammar debugging harder than JSON schemas; needs token-level model control.
+- [CoderPlan](https://coderplan.ai) - Managed LLM API gateway for coding agents (Claude Code, Cursor, Codex CLI, Gemini CLI).
+  - **Strengths:** OpenAI-compatible drop-in API; pay-per-use with no subscription; supports Claude/GPT/Gemini/DeepSeek; free credits for new users; HK/SG edge nodes.
+  - **Caveats:** hosted service (not self-hostable); not open-source; provider routing is managed rather than user-configurable.
 
 ### Stateful Agents
 
