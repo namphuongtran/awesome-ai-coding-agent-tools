@@ -173,6 +173,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [Supabase MCP](https://github.com/supabase-community/supabase-mcp) - Connect Supabase databases to Claude Code, Cursor, and other LLMs.
   - **Strengths:** standardizes LLM↔Supabase interaction; comprehensive tooling; configurable security.
   - **Caveats:** pre-1.0 (breaking changes likely); limited self-hosted features; prompt injection possible.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring and identity verification MCP server for AI agents operating with x402 micropayments on Solana.
+  - **Strengths:** free MCP tools (`score_agent`, `preflight_check`); streamable-HTTP transport; no API key required for trust scoring.
+  - **Caveats:** Solana-native identity model; `get_trust_receipt` tool requires x402 micropayment.
 
 ### Curated Awesome Lists
 
