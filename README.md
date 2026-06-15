@@ -173,6 +173,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [Supabase MCP](https://github.com/supabase-community/supabase-mcp) - Connect Supabase databases to Claude Code, Cursor, and other LLMs.
   - **Strengths:** standardizes LLM↔Supabase interaction; comprehensive tooling; configurable security.
   - **Caveats:** pre-1.0 (breaking changes likely); limited self-hosted features; prompt injection possible.
+- [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - X data API and MCP server for search, account lookups, exports, webhooks, and confirmation-gated actions.
+  - **Strengths:** public REST, MCP, and webhook docs; useful for agents that analyze X data.
+  - **Caveats:** X-specific scope; requires an Xquik account and API key.
 
 ### Curated Awesome Lists
 
