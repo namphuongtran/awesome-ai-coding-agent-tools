@@ -468,6 +468,9 @@ What agents need to be useful in production.
 
 ### Observability
 
+- [ax](https://github.com/Necmttn/ax) - Local-first telemetry and memory graph for AI coding agents across Claude Code, Codex, OpenCode, Cursor, and Pi.
+  - **Strengths:** normalizes sessions, costs, tool calls, skills, OTLP events, and git-linked recall into a local SurrealDB graph; includes CLI, dashboard, and MCP access.
+  - **Caveats:** requires local ax and SurrealDB setup; focused on coding-agent harness telemetry rather than general LLM app tracing.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability platform for tracing and monitoring.
   - **Strengths:** 100+ models via single API key; one-line integration; comprehensive observability; self-hosting option.
   - **Caveats:** documentation timeliness issues; manual deployment not recommended; provider gaps possible.
