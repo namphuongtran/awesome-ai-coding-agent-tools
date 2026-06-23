@@ -209,6 +209,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) - Open-source agentic agile framework with guided workflows from ideation to autonomous implementation.
   - **Strengths:** fully free, open-source; expert-collaborator personas; scale-domain-adaptive planning.
   - **Caveats:** requires CLI invocation (`npx bmad-method@next install`); newer methodology with evolving personas.
+- [ralph-harness](https://github.com/rxdt/py_ralph_frame) - Minimal repo-local guarded loop for Claude Code, Codex CLI, and Gemini CLI.
+  - **Strengths:** specs as source of truth; fresh-context iterations; git hooks and CI gates; hard iteration/time caps; simple local scaffold instead of a hosted orchestrator.
+  - **Caveats:** new project; PyPI Trusted Publishing is pending, so the current trial path installs from GitHub.
 - [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) - Distilled best-practice patterns and conventions for Claude Code teams.
   - **Strengths:** concise reference of community-tested patterns; quick-start for new teams; living doc.
   - **Caveats:** opinionated; may not match every workflow; small maintainer pool.
