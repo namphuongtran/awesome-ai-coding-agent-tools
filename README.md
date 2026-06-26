@@ -348,6 +348,9 @@ What agents need to be useful in production.
 - [Mem0](https://github.com/mem0ai/mem0) - Universal memory layer with semantic, BM25, and entity-linked retrieval.
   - **Strengths:** multi-level memory architecture; intuitive cross-platform SDKs; 91%+ benchmark improvements.
   - **Caveats:** LLM provider dependency; embedding-model requirements; self-hosted operational overhead.
+- [Vestige](https://github.com/samvallad33/vestige) - Local-first MCP memory for coding agents.
+  - **Strengths:** Rust binary; SQLite storage; FSRS-style retention; correction/provenance tools; 3D dashboard.
+  - **Caveats:** self-hosted local runtime; embedding setup and MCP client configuration required.
 - [Zep](https://github.com/getzep/zep) - Long-term memory management for agents with semantic search and summarization.
   - **Strengths:** sub-200ms context assembly; temporal knowledge graphs; multi-language SDKs; SOC2/HIPAA.
   - **Caveats:** WIP status; Community Edition deprecated; cloud-vendor dependency; documentation gaps.
