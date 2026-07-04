@@ -598,6 +598,8 @@ Contributions are always welcome! Use the issue templates to suggest a new tool 
 
 Thanks to all contributors — you're awesome and this wouldn't be possible without you. The goal is to build a categorized, community-driven collection of well-known tools, libraries, MCP servers, and frameworks that power AI coding agents.
 
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts (PCAs): 4 structured Markdown templates + 5 Claude Code skills (crm-everything, open-loops, watchers, morning-briefing, session-digest) that give any AI agent deep, longitudinal context about you. Open-source, model-agnostic, one-command install.
+
 ---
 
 <div align="center">
