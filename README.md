@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-133-blue.svg)
+![Tools](https://img.shields.io/badge/tools-134-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -348,6 +348,9 @@ What agents need to be useful in production.
 - [Mem0](https://github.com/mem0ai/mem0) - Universal memory layer with semantic, BM25, and entity-linked retrieval.
   - **Strengths:** multi-level memory architecture; intuitive cross-platform SDKs; 91%+ benchmark improvements.
   - **Caveats:** LLM provider dependency; embedding-model requirements; self-hosted operational overhead.
+- [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Local-first Rust CLI memory lifecycle layer for AI coding agents.
+  - **Strengths:** framework-agnostic CLI; SQLite/FTS recall; forgetting, audit, and consolidation workflows.
+  - **Caveats:** young project; small early community; macOS ARM64 binary is the primary release artifact today.
 - [Zep](https://github.com/getzep/zep) - Long-term memory management for agents with semantic search and summarization.
   - **Strengths:** sub-200ms context assembly; temporal knowledge graphs; multi-language SDKs; SOC2/HIPAA.
   - **Caveats:** WIP status; Community Edition deprecated; cloud-vendor dependency; documentation gaps.
