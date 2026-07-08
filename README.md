@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-133-blue.svg)
+![Tools](https://img.shields.io/badge/tools-134-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -345,6 +345,9 @@ What agents need to be useful in production.
 - [context-mode](https://github.com/mksglu/context-mode) - MCP plugin that sandboxes tool output and reduces context window usage via FTS5 indexing.
   - **Strengths:** massive context savings (315KB→5KB examples); hooks across 15+ platforms; growing developer adoption.
   - **Caveats:** sandboxing prevents agent re-reading output; MCP-only; requires hook support or instruction fallback.
+- [Data Olympus](https://github.com/knaisoma/data-olympus) - Governed project knowledge MCP server for coding agents.
+  - **Strengths:** agents propose learnings while humans promote accepted rules; retrieval filters by in-force status, validity windows, and supersession links; local-first and git-backed.
+  - **Caveats:** young project; best fit is team/project governance, not personal assistant memory or managed hosted memory.
 - [Mem0](https://github.com/mem0ai/mem0) - Universal memory layer with semantic, BM25, and entity-linked retrieval.
   - **Strengths:** multi-level memory architecture; intuitive cross-platform SDKs; 91%+ benchmark improvements.
   - **Caveats:** LLM provider dependency; embedding-model requirements; self-hosted operational overhead.
