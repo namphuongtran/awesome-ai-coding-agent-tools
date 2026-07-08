@@ -342,12 +342,12 @@ What agents need to be useful in production.
 - [Cognee](https://github.com/topoteretes/cognee) - Memory engine with knowledge graphs, ECL pipeline, and multi-hop reasoning.
   - **Strengths:** unified multi-source ingestion; agent learning across sessions; 4-method simplicity.
   - **Caveats:** hidden complexity behind simplicity; external LLM API dependency; operational maturity questions.
-- [Data Olympus](https://github.com/knaisoma/data-olympus) - Governed project knowledge MCP server for coding agents.
-  - **Strengths:** agents propose learnings while humans promote accepted rules; retrieval filters by in-force status, validity windows, and supersession links; local-first and git-backed.
-  - **Caveats:** young project; best fit is team/project governance, not personal assistant memory or managed hosted memory.
 - [context-mode](https://github.com/mksglu/context-mode) - MCP plugin that sandboxes tool output and reduces context window usage via FTS5 indexing.
   - **Strengths:** massive context savings (315KB→5KB examples); hooks across 15+ platforms; growing developer adoption.
   - **Caveats:** sandboxing prevents agent re-reading output; MCP-only; requires hook support or instruction fallback.
+- [Data Olympus](https://github.com/knaisoma/data-olympus) - Governed project knowledge MCP server for coding agents.
+  - **Strengths:** agents propose learnings while humans promote accepted rules; retrieval filters by in-force status, validity windows, and supersession links; local-first and git-backed.
+  - **Caveats:** young project; best fit is team/project governance, not personal assistant memory or managed hosted memory.
 - [Mem0](https://github.com/mem0ai/mem0) - Universal memory layer with semantic, BM25, and entity-linked retrieval.
   - **Strengths:** multi-level memory architecture; intuitive cross-platform SDKs; 91%+ benchmark improvements.
   - **Caveats:** LLM provider dependency; embedding-model requirements; self-hosted operational overhead.
