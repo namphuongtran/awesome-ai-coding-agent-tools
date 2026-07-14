@@ -447,6 +447,9 @@ What agents need to be useful in production.
 - [Prefect](https://github.com/PrefectHQ/prefect) - Pythonic workflow orchestration for data pipelines with growing AI/agent positioning.
   - **Strengths:** Pythonic; serverless-ready; agent monitoring via Marvin; cloud UI.
   - **Caveats:** data-pipeline origin (not agent-native); steeper learning curve than Kestra.
+- [OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay) - Open-source CLI that exposes one existing local coding agent or automation as a keyed capability over a trusted LAN.
+  - **Strengths:** publisher source and credentials stay local; target verification; bounded conversations; structured JSON output; explicit exit codes for automation.
+  - **Caveats:** current alpha uses HTTP with a shared key; intended for trusted networks and non-production tasks, not public-internet exposure.
 
 ### Evaluation
 
