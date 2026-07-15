@@ -468,6 +468,9 @@ What agents need to be useful in production.
 
 ### Observability
 
+- [Agent Island](https://github.com/tristan666666/agent-island) - Open-source desktop status companion for monitoring Claude Code and Codex sessions locally.
+  - **Strengths:** native macOS and Windows apps; live session state with your-turn alerts; no account or product telemetry.
+  - **Caveats:** focused on local Claude Code and Codex sessions rather than server-side traces; macOS build is not notarized.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability platform for tracing and monitoring.
   - **Strengths:** 100+ models via single API key; one-line integration; comprehensive observability; self-hosting option.
   - **Caveats:** documentation timeliness issues; manual deployment not recommended; provider gaps possible.
