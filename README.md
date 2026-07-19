@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-133-blue.svg)
+![Tools](https://img.shields.io/badge/tools-134-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -375,6 +375,9 @@ What agents need to be useful in production.
 
 ### Codebase Context
 
+- [Aura](https://github.com/Naridon-Inc/aura) - Semantic Git layer for reviewing AI-generated code intent, provenance, and change risk.
+  - **Strengths:** Git-native review evidence; semantic diff context; local-first provenance.
+  - **Caveats:** early project; language coverage and integrations still evolving.
 - [ast-grep](https://github.com/ast-grep/ast-grep) - Code search and structural pattern matching tool for codebases.
   - **Strengths:** intuitive AST patterns; Rust performance with multicore; versatile use cases.
   - **Caveats:** language-coverage scope; learning curve for advanced patterns; ecosystem still maturing.
