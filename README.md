@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-133-blue.svg)
+![Tools](https://img.shields.io/badge/tools-134-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -429,6 +429,9 @@ What agents need to be useful in production.
 
 ### Workflow & Pipeline Orchestration
 
+- [Better Agent](https://github.com/ofekron/better-agent) - Local web workspace for supervising Claude, Codex, and Gemini coding-agent sessions (source-available).
+  - **Strengths:** parallel delegation; persistent sessions; approval gates; restart recovery.
+  - **Caveats:** free for non-commercial use; commercial use requires separate permission; local deployment required.
 - [Dagger](https://github.com/dagger/dagger) - Containerized pipelines as code (TypeScript/Go/Python) that run locally, in CI, or cloud.
   - **Strengths:** portable execution; reduces CI vendor lock-in; code-first vs YAML; Docker-native.
   - **Caveats:** smaller ecosystem vs Jenkins/GitHub Actions; learning curve; not AI-specific.
