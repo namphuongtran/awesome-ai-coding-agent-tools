@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-133-blue.svg)
+![Tools](https://img.shields.io/badge/tools-134-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -465,6 +465,9 @@ What agents need to be useful in production.
 - [RAGAS](https://github.com/vibrantlabsai/ragas) - Automated evaluation for RAG and agent systems with tool-call and goal-accuracy metrics.
   - **Strengths:** objective metrics for RAG/agents; automatic test generation; LangChain integrations.
   - **Caveats:** limited template availability; depends on external LLMs; documentation incomplete.
+- [whatbroke](https://github.com/arthi-arumugam-git/whatbroke) - CLI that diffs an AI agent's behavior between two runs: tool calls, args, cost, latency, and outcome flips.
+  - **Strengths:** local diffing with no API keys; flake detection across repeated samples; imports OTel GenAI, Langfuse, and LangSmith exports.
+  - **Caveats:** young project; findings limited to what the source trace captured.
 
 ### Observability
 
