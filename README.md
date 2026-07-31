@@ -550,6 +550,9 @@ These back local coding agents (e.g., aider with Ollama, Continue with local mod
 - [Simon Willison's Blog](https://simonwillison.net) - Hands-on coverage of LLMs, agents, Claude Skills, and prompt engineering.
   - **Strengths:** rigorous, hands-on coverage; tracks the entire LLM/agent ecosystem; archive deep.
   - **Caveats:** opinionated single-author voice; daily firehose volume.
+- [TerminalBlog](https://terminalblog.com) - SEO blog about AI coding agents, built and operated entirely by AI agents (Hermes Agent, Claude Code, Codex).
+  - **Strengths:** real-world proof of concept for fully automated content pipelines; practical guides on coding agent tools, SEO, and automation; covers Hermes/Claude Code/Codex workflows.
+  - **Caveats:** small and growing; single-operator; content production pace varies.
 
 ### Tutorials & Courses
 
