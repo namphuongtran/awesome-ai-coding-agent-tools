@@ -164,6 +164,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - Microsoft's MCP server for browser automation and end-to-end testing.
   - **Strengths:** accessibility tree (no vision models); fast and lightweight; avoids screenshot ambiguity.
   - **Caveats:** not a security boundary; headless Chromium only; profile conflicts under concurrency.
+- [SandBase CLI](https://github.com/sandbaseai/cli) - Agent-first CLI and MCP bridge connecting coding agents to 2,000+ hosted models and APIs.
+  - **Strengths:** one-command setup for 17+ clients; six-tool discover/inspect/run surface; OAuth device flow; Apache-2.0.
+  - **Caveats:** requires a SandBase account and hosted service; model and API calls may consume credits; Node.js 20+ required.
 - [Serena](https://github.com/oraios/serena) - MCP toolkit giving agents IDE-like semantic retrieval and editing via Language Server Protocol.
   - **Strengths:** LSP-powered semantic ops (rename/references/navigation); multi-language; widely adopted (24k+ stars); free OSS.
   - **Caveats:** requires per-language LSP servers installed; setup complexity varies by language.
