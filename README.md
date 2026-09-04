@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-133-blue.svg)
+![Tools](https://img.shields.io/badge/tools-134-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -152,6 +152,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - GitHub's official MCP server giving agents access to repos, issues, pull requests, and Actions via the GitHub API.
   - **Strengths:** first-party from GitHub; covers repos, issues, PRs, Actions, and code search; widely adopted (30k+ stars).
   - **Caveats:** requires GitHub personal access token with appropriate scopes; rate-limited by token tier.
+- [htmlark](https://github.com/nichenqin/htmlark) - Local-first MCP/CLI/skill for versioned HTML artifacts with CSP-sandboxed preview.
+  - **Strengths:** stable artifact keys across revisions; local CSP sandbox; `npx htmlark` / `htmlark mcp`.
+  - **Caveats:** early project; Node.js toolchain assumed.
 - [microsoft/mcp](https://github.com/microsoft/mcp) - Microsoft's official MCP server implementations.
   - **Strengths:** first-party Microsoft implementations; enterprise-aware; well-tested.
   - **Caveats:** Microsoft-stack bias; some servers are early.
