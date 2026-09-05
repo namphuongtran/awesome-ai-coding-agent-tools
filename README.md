@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-133-blue.svg)
+![Tools](https://img.shields.io/badge/tools-134-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -226,6 +226,9 @@ Web-hosted directories and marketplaces for discovering and installing Skills an
 - [Claude Connectors](https://claude.com/connectors) - Anthropic's official directory of partner Connectors for Claude.
   - **Strengths:** official Anthropic directory; vetted partners; first-party integrations.
   - **Caveats:** curated to partners only; not for indie skill discovery.
+- [HOL Plugins](https://hol.org/plugins) - Cross-ecosystem directory for coding-agent plugins, skills, and MCP tools.
+  - **Strengths:** 240 plugins across 16 ecosystems; scanner-backed trust signals; runtime-specific install guidance.
+  - **Caveats:** coverage varies by ecosystem; scanner signals are not a safety guarantee; optional sponsored placements exist.
 - [SkillHub](https://skillhub.club) - Community hub for discovering and sharing Claude Skills.
   - **Strengths:** discovery-focused; community submissions; lightweight UX.
   - **Caveats:** smaller catalog; uncertain long-term maintenance.
