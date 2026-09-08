@@ -140,6 +140,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [C4 Model MCP](https://docs.structurizr.com/ai/mcp) - Structurizr's official MCP server for C4 architecture diagrams with DSL validation and PlantUML/Mermaid export.
   - **Strengths:** official C4 reference implementation; 23 MCP tools; Docker and Java 21 deployment.
   - **Caveats:** requires Java 21; experimental status; HTTP stateless mode limits some features.
+- [ContextStream](https://contextstream.io) - Shared project context MCP for Cursor, Claude Code, Codex, and Grok. Intelligence isn’t the bottleneck. Context is.
+  - **Strengths:** one remote endpoint (https://mcp.contextstream.io/mcp) reused across those clients; benchmarks at https://contextstream.io/benchmarks; MIT server at https://github.com/contextstream/mcp-server.
+  - **Caveats:** hosted project context; requires a ContextStream account.
 - [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp) - Official Excalidraw MCP server for streaming hand-drawn diagram creation from agents.
   - **Strengths:** official Excalidraw team implementation; mobile-optimized streaming UI; works with Claude/ChatGPT/VS Code/Goose.
   - **Caveats:** requires MCP-compatible client; local setup needs Node.js familiarity.
