@@ -227,7 +227,7 @@ Web-hosted directories and marketplaces for discovering and installing Skills an
   - **Strengths:** official Anthropic directory; vetted partners; first-party integrations.
   - **Caveats:** curated to partners only; not for indie skill discovery.
 - [HOL Plugins](https://hol.org/plugins) - Cross-ecosystem directory for coding-agent plugins, skills, and MCP tools.
-  - **Strengths:** 240 plugins across 16 ecosystems; scanner-backed trust signals; runtime-specific install guidance.
+  - **Strengths:** 350+ plugins across 18 ecosystems; scanner-backed trust signals; runtime-specific install guidance.
   - **Caveats:** coverage varies by ecosystem; scanner signals are not a safety guarantee; optional sponsored placements exist.
 - [SkillHub](https://skillhub.club) - Community hub for discovering and sharing Claude Skills.
   - **Strengths:** discovery-focused; community submissions; lightweight UX.
