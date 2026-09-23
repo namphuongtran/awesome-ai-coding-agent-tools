@@ -170,6 +170,8 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [Stitch MCP](https://github.com/Kargatharaakash/stitch-mcp) - MCP bridge for Google Stitch AI UI design tool — extract design context and generate screens.
   - **Strengths:** zero-config after auth; cross-platform; instant access to design DNA (fonts/colors/layouts).
   - **Caveats:** requires Google Cloud credential setup; depends on Stitch platform availability.
+- [Statsnet MCP](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Remote: https://statsnet.co/mcp
+
 - [Supabase MCP](https://github.com/supabase-community/supabase-mcp) - Connect Supabase databases to Claude Code, Cursor, and other LLMs.
   - **Strengths:** standardizes LLM↔Supabase interaction; comprehensive tooling; configurable security.
   - **Caveats:** pre-1.0 (breaking changes likely); limited self-hosted features; prompt injection possible.
