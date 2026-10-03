@@ -351,6 +351,9 @@ What agents need to be useful in production.
 - [Zep](https://github.com/getzep/zep) - Long-term memory management for agents with semantic search and summarization.
   - **Strengths:** sub-200ms context assembly; temporal knowledge graphs; multi-language SDKs; SOC2/HIPAA.
   - **Caveats:** WIP status; Community Edition deprecated; cloud-vendor dependency; documentation gaps.
+- [Awareness](https://github.com/everest-an/Awareness-Market) - Local-first persistent memory for coding agents: Markdown storage + SQLite hybrid retrieval (FTS5 + embeddings), works offline, no account.
+  - **Strengths:** fully local and offline; retrieval runs with zero LLM calls; 96.0% R@5 on LongMemEval (reproducible benchmark in-repo); native OpenCode / Claude Code / OpenClaw plugins plus MCP; per-project isolation.
+  - **Caveats:** the OpenCode plugin is brand new; multi-device sync needs the optional cloud; no hosted managed offering yet.
 
 ### Vector Databases
 
