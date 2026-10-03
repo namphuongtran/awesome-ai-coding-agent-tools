@@ -209,6 +209,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) - Open-source agentic agile framework with guided workflows from ideation to autonomous implementation.
   - **Strengths:** fully free, open-source; expert-collaborator personas; scale-domain-adaptive planning.
   - **Caveats:** requires CLI invocation (`npx bmad-method@next install`); newer methodology with evolving personas.
+- [Cage](https://github.com/vitalik1921/cage) - Deterministic TypeScript contract harness that keeps specs, code, tests, and agent review state in sync.
+  - **Strengths:** no model calls; detects spec/code/test drift; invalidates stale reviews; includes Claude Code skills and a Stop hook.
+  - **Caveats:** TypeScript-only; requires Node.js 24.11+ and explicit specs/tags; early-stage project with preliminary evaluation results.
 - [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) - Distilled best-practice patterns and conventions for Claude Code teams.
   - **Strengths:** concise reference of community-tested patterns; quick-start for new teams; living doc.
   - **Caveats:** opinionated; may not match every workflow; small maintainer pool.
