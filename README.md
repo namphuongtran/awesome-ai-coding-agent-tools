@@ -348,6 +348,9 @@ What agents need to be useful in production.
 - [Mem0](https://github.com/mem0ai/mem0) - Universal memory layer with semantic, BM25, and entity-linked retrieval.
   - **Strengths:** multi-level memory architecture; intuitive cross-platform SDKs; 91%+ benchmark improvements.
   - **Caveats:** LLM provider dependency; embedding-model requirements; self-hosted operational overhead.
+- [opencode-self-improvement](https://github.com/abogartz/opencode-self-improvement) - Durable memory plugin for OpenCode that validates every memory through a 4-gate write pipeline against the live repo before storing it.
+  - **Strengths:** stale-reference checks against git HEAD; supersede-not-delete with snapshot undo; epoch-frozen injection keeps the provider prompt cache warm (measured 25.6% fewer injected characters); zero infra, zero required deps.
+  - **Caveats:** OpenCode-only; keyword recall rather than embeddings; local files on a single machine, no sync.
 - [Zep](https://github.com/getzep/zep) - Long-term memory management for agents with semantic search and summarization.
   - **Strengths:** sub-200ms context assembly; temporal knowledge graphs; multi-language SDKs; SOC2/HIPAA.
   - **Caveats:** WIP status; Community Edition deprecated; cloud-vendor dependency; documentation gaps.
