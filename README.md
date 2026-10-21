@@ -9,7 +9,7 @@
 [![Lint](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/lint.yml)
 [![Links](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml/badge.svg)](https://github.com/namphuongtran/awesome-ai-coding-agent-tools/actions/workflows/links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](../../pulls)
-![Tools](https://img.shields.io/badge/tools-133-blue.svg)
+![Tools](https://img.shields.io/badge/tools-134-blue.svg)
 ![Categories](https://img.shields.io/badge/categories-27-purple.svg)
 ![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-red.svg)
 
@@ -182,6 +182,9 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 - [awesome-ai-agents](https://github.com/jim-schwoebel/awesome_ai_agents) - Large index of resources and tools across the AI agents ecosystem.
   - **Strengths:** 1500+ resources; daily updates; multi-tier organization; community-driven.
   - **Caveats:** breadth over depth; rapid obsolescence risk; no quality vetting.
+- [awesome-ai-agents (ianwieds)](https://github.com/ianwieds/awesome-ai-agents) - Curated list of AI agent frameworks, coding and browser agents, memory, sandboxes, evals, and safety tools.
+  - **Strengths:** organized by agent type and stack layer; short factual one-line entries; actively maintained.
+  - **Caveats:** young list with a small community; breadth over depth; no comparative benchmarks.
 - [awesome-claude-code (hesreallyhim)](https://github.com/hesreallyhim/awesome-claude-code) - Skills, hooks, slash commands, agents, and plugins for Claude Code.
   - **Strengths:** quality and security emphasis; broad coverage of skills/hooks/commands.
   - **Caveats:** active restructuring underway; documentation in flux.
