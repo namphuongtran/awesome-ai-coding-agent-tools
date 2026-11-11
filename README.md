@@ -447,6 +447,9 @@ What agents need to be useful in production.
 - [Prefect](https://github.com/PrefectHQ/prefect) - Pythonic workflow orchestration for data pipelines with growing AI/agent positioning.
   - **Strengths:** Pythonic; serverless-ready; agent monitoring via Marvin; cloud UI.
   - **Caveats:** data-pipeline origin (not agent-native); steeper learning curve than Kestra.
+- [TreeHarbor](https://github.com/ArtAndrew/TreeHarbor) - Self-hosted workspaces and retained patches for parallel coding agents (source-available, Elastic-2.0).
+  - **Strengths:** Starts tasks at a pinned Git commit. Submitted changes can be exported after workspace cleanup. Each proposal can become a GitHub draft PR.
+  - **Caveats:** The Linux alpha requires manual PostgreSQL and GitHub App setup. The managed example uses gVisor.
 
 ### Evaluation
 
