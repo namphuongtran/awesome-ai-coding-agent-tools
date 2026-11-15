@@ -128,6 +128,8 @@ Add-ons that extend AI coding agents with new capabilities, knowledge, or rules.
 
 ### MCP Servers
 
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) — Live music venue directory, stage specs, and booking contacts across all 50 US states ([nostairsplease.com](https://nostairsplease.com/)).
+
 - [awesome-mcp-servers (punkpeye)](https://github.com/punkpeye/awesome-mcp-servers) - Community catalog of Model Context Protocol servers.
   - **Strengths:** large index; sortable by category; community-driven additions.
   - **Caveats:** not curated for quality; dead links accumulate.
